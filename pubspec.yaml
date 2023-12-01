@@ -23,6 +23,7 @@ dependencies:
   flutter_lints: ^3.0.1
   flutter_localizations:
     sdk: flutter
+  flutter_native_splash: ^2.3.6
   flutter_secure_storage: ^9.0.0
   flutter_svg: ^2.0.9
   form_builder_validators: ^9.1.0
@@ -33,7 +34,6 @@ dependencies:
   lottie: ^2.7.0
   native_barcode_scanner: ^1.0.6
   permission_handler: ^11.1.0
-  qrcode_reader_web: ^1.1.1
   shared_preferences: ^2.2.2
 
 dev_dependencies:
@@ -68,3 +68,4 @@ flutter:
     - assets/fonts/Inter/
     - assets/images/Image.png
     - assets/icons/scan.png
+    - assets/images/Logo.png

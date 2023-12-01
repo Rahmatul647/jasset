@@ -12,31 +12,119 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/arrow-left_icons.svg
+  String get arrowLeftIcons => 'assets/icons/arrow-left_icons.svg';
+
+  /// File path: assets/icons/burger_menu_icon.svg
+  String get burgerMenuIcon => 'assets/icons/burger_menu_icon.svg';
+
+  /// File path: assets/icons/camera.svg
+  String get camera => 'assets/icons/camera.svg';
+
+  /// File path: assets/icons/clipboard.svg
+  String get clipboard => 'assets/icons/clipboard.svg';
+
+  /// File path: assets/icons/clock.svg
+  String get clock => 'assets/icons/clock.svg';
+
+  /// File path: assets/icons/database.svg
+  String get database => 'assets/icons/database.svg';
+
+  /// File path: assets/icons/eye-alt.svg
+  String get eyeAlt => 'assets/icons/eye-alt.svg';
+
+  /// File path: assets/icons/eye-close.svg
+  String get eyeClose => 'assets/icons/eye-close.svg';
+
+  /// File path: assets/icons/home.svg
+  String get home => 'assets/icons/home.svg';
+
+  /// File path: assets/icons/icon_wrap.svg
+  String get iconWrap => 'assets/icons/icon_wrap.svg';
+
+  /// File path: assets/icons/image-gallery.svg
+  String get imageGallery => 'assets/icons/image-gallery.svg';
+
+  /// File path: assets/icons/image.svg
+  String get image => 'assets/icons/image.svg';
+
+  /// File path: assets/icons/log_out_icon.svg
+  String get logOutIcon => 'assets/icons/log_out_icon.svg';
+
+  /// File path: assets/icons/page.svg
+  String get page => 'assets/icons/page.svg';
+
+  /// File path: assets/icons/pencil_edit.svg
+  String get pencilEdit => 'assets/icons/pencil_edit.svg';
+
+  /// File path: assets/icons/settings.svg
+  String get settings => 'assets/icons/settings.svg';
+
+  /// File path: assets/icons/switch-horizontal.svg
+  String get switchHorizontal => 'assets/icons/switch-horizontal.svg';
+
+  /// File path: assets/icons/user.svg
+  String get user => 'assets/icons/user.svg';
+
   /// File path: assets/icons/icon_laptop.svg
-  String get iconLaptop => 'assets/icons/icon_laptop.svg';
+  String get icon_laptop => 'assets/icons/user.svg';
 
   /// List of all assets
-  List<String> get values => [iconLaptop];
+  List<String> get values => [
+        arrowLeftIcons,
+        burgerMenuIcon,
+        camera,
+        clipboard,
+        clock,
+        database,
+        eyeAlt,
+        eyeClose,
+        home,
+        iconWrap,
+        imageGallery,
+        image,
+        logOutIcon,
+        page,
+        pencilEdit,
+        settings,
+        switchHorizontal,
+        user
+      ];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
-  /// File path: assets/images/Image.svg
-  String get image => 'assets/images/Image.svg';
+  /// File path: assets/images/avatar.png
+  AssetGenImage get avatar => const AssetGenImage('assets/images/avatar.png');
 
-  /// File path: assets/images/flutter_logo.png
-  AssetGenImage get flutterLogo =>
-      const AssetGenImage('assets/images/flutter_logo.png');
+  /// File path: assets/images/contoh_tanda_tangan.png
+  AssetGenImage get contohTandaTangan =>
+      const AssetGenImage('assets/images/contoh_tanda_tangan.png');
 
-  /// File path: assets/images/jasset.svg
-  String get jasset => 'assets/images/jasset.svg';
+  /// File path: assets/images/folder.svg
+  String get folder => 'assets/images/folder.svg';
 
-  /// File path: assets/images/logo_ts.svg
-  String get logoTs => 'assets/images/logo_ts.svg';
+  /// File path: assets/images/logomark.svg
+  String get logomark => 'assets/images/logomark.svg';
+
+  /// File path: assets/images/signature_false.png
+  AssetGenImage get signatureFalse =>
+      const AssetGenImage('assets/images/signature_false.png');
+
+  /// File path: assets/images/signature_true.png
+  AssetGenImage get signatureTrue =>
+      const AssetGenImage('assets/images/signature_true.png');
 
   /// List of all assets
-  List<dynamic> get values => [image, flutterLogo, jasset, logoTs];
+  List<dynamic> get values => [
+        avatar,
+        contohTandaTangan,
+        folder,
+        logomark,
+        signatureFalse,
+        signatureTrue
+      ];
 }
 
 class $AssetsLottieGen {

@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:jasset/gen/assets.gen.dart';
+import 'package:jasset/src/qr_scanner/presentation/page/scanner.dart';
 
 class HomePage extends StatelessWidget {
   static const routeName = "/Home";
   const HomePage({super.key});
   final String barcodeFormat = '';
   final String barcodeValue = '';
-  
 
   @override
   Widget build(BuildContext context) {
@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     SvgPicture.asset(
-                      Assets.icons.iconLaptop,
+                      Assets.icons.icon_laptop,
                       height: 50,
                     ),
                     const SizedBox(
@@ -93,7 +93,10 @@ class HomePage extends StatelessWidget {
                     ),
                     const Spacer(),
                     IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushNamed(ScannerPage.routeName);
+                        },
                         icon: Image.asset(
                           'assets/icons/scan.png',
                           height: 40,
